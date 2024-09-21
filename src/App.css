@@ -113,7 +113,7 @@ h3 {
   bottom: 0;
   left: 0;
   width: 100%;
-  text-align: center;
+  text-align: start;
 }
 
 .carousel .control-dots .dot {
@@ -122,14 +122,16 @@ h3 {
 
 .btn {
   display: inline-block;
+  margin-top: 20px;
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
-  text-decoration: none;
   border: none;
   border-radius: 5px;
+  font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  text-align: start;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
